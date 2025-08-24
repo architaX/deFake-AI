@@ -1,0 +1,49 @@
+# Python cache/compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and local files
+*.log
+*.tmp
+*.swp
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Datasets and uploads (ignore big or private data)
+data/
+dataset_audio/
+dataset_faces/
+dataset_image/
+dataset_videos/
+video_frames/
+uploads/
+feedback_data/
+models/
+templates/
+
+# Models (large binaries)
+*.h5
+*.pth
+
+# If you want to ignore ALL large files over ~100MB (GitHub blocks them)
+# Use Git LFS instead for models/datasets
